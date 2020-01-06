@@ -1,0 +1,72 @@
+.mainPagecontainer{
+    width: 85%;
+    margin: 0 auto;
+    button{
+        .custom-button(@white,@width,@button-bg);
+    }
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.firstContainer{
+    background-image: url("../images/veggies.jpg");
+    height: 70vh;
+    h2,p{
+        color:white;
+
+    }//h2,p
+    h2 {
+        text-align:center;
+    }//ends h2
+    .intro{
+        width: 50%;
+        text-align:center;
+        
+    }//ends intro
+
+    button{
+       align-self:center;
+    }//ends button
+}//ends container
+.do{
+    background-color:@melon;
+    text-align:center;
+    padding:2%;
+    .approach{
+        background-color:black;
+    }
+}
+.secondSection{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    // height: 30vh;
+    .services{
+        width:40%;
+    }
+    .servecesPic, img{
+        width:750px;
+    }
+}
+.mapping{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    .stakeholder{
+        width:50%;
+    }
+    .mappingPic, img{
+        width:750px;
+    }
+}
+.USSD{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    .graph{
+        width:50%;
+    }
+    .mappingPic, img{
+        width:750px;
+    }
+}

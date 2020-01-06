@@ -1,0 +1,104 @@
+header h1 {
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.mainPagecontainer {
+  width: 85%;
+  margin: 0 auto;
+}
+.mainPagecontainer button {
+  background-color: #fe6c61;
+  width: 30%;
+  color: #FFFFFF;
+  height: 10%;
+  text-align: center;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.firstContainer {
+  background-image: url("../images/veggies.jpg");
+  height: 70vh;
+}
+.firstContainer h2,
+.firstContainer p {
+  color: white;
+}
+.firstContainer h2 {
+  text-align: center;
+}
+.firstContainer .intro {
+  width: 50%;
+  text-align: center;
+}
+.firstContainer button {
+  align-self: center;
+}
+.do {
+  background-color: #fe6c61;
+  text-align: center;
+  padding: 2%;
+}
+.do .approach {
+  background-color: black;
+}
+.secondSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.secondSection .services {
+  width: 40%;
+}
+.secondSection .servecesPic,
+.secondSection img {
+  width: 750px;
+}
+.mapping {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.mapping .stakeholder {
+  width: 50%;
+}
+.mapping .mappingPic,
+.mapping img {
+  width: 750px;
+}
+.USSD {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.USSD .graph {
+  width: 50%;
+}
+.USSD .mappingPic,
+.USSD img {
+  width: 750px;
+}
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+footer .copyright {
+  color: white;
+  text-align: center;
+  padding: 2%;
+  align-content: center;
+}
+footer span {
+  color: red;
+}
