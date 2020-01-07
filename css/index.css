@@ -85,9 +85,6 @@ body {
     justify-content: center;
   }
 }
-.secondSection .services {
-  width: 40%;
-}
 @media (max-width: 500px) {
   .secondSection .services {
     width: 100%;
@@ -137,9 +134,6 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-}
-.USSD .graph {
-  width: 50%;
 }
 @media (max-width: 500px) {
   .USSD .graph {
