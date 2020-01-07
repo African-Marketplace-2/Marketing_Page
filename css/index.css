@@ -16,6 +16,10 @@ header a {
   text-decoration: none;
   color: white;
 }
+header a:hover {
+  background: #fe6c61;
+  color: black;
+}
 .mainPagecontainer {
   width: 85%;
   margin: 0 auto;
