@@ -177,3 +177,20 @@ footer span {
   color: white;
   font-weight: bold;
 }
+.introVid {
+  text-align: center;
+  width: 80%;
+}
+@media (max-width: 500px) {
+  .introVid {
+    text-align: left;
+  }
+}
+@media (max-width: 500px) {
+  .videos,
+  iframe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
