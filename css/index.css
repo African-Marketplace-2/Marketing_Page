@@ -79,6 +79,9 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+.secondSection h1 {
+  text-decoration: underline;
+}
 @media (max-width: 500px) {
   .secondSection {
     flex-direction: column;
