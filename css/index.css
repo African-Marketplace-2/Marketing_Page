@@ -6,6 +6,12 @@ header nav {
   justify-content: space-between;
   background-color: black;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    flex-wrap: rap;
+  }
+}
 header a {
   text-decoration: none;
   color: white;
@@ -32,12 +38,25 @@ body {
 .firstContainer p {
   color: white;
 }
+@media (max-width: 500px) {
+  .firstContainer h2,
+  .firstContainer p {
+    flex-direction: column;
+    font-size: 0.75rem;
+  }
+}
 .firstContainer h2 {
   text-align: center;
 }
 .firstContainer .intro {
   width: 50%;
   text-align: center;
+  height: 40%;
+}
+@media (max-width: 500px) {
+  .firstContainer .intro {
+    flex-direction: column;
+  }
 }
 .firstContainer button {
   align-self: center;
@@ -47,6 +66,11 @@ body {
   text-align: center;
   padding: 2%;
 }
+@media (max-width: 500px) {
+  .do {
+    flex-direction: column;
+  }
+}
 .do .approach {
   background-color: black;
 }
@@ -55,36 +79,82 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+@media (max-width: 500px) {
+  .secondSection {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .secondSection .services {
   width: 40%;
+}
+@media (max-width: 500px) {
+  .secondSection .services {
+    width: 100%;
+  }
 }
 .secondSection .servecesPic,
 .secondSection img {
   width: 750px;
+}
+@media (max-width: 500px) {
+  .secondSection .servecesPic,
+  .secondSection img {
+    width: 100%;
+  }
 }
 .mapping {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
+@media (max-width: 500px) {
+  .mapping {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .mapping .stakeholder {
-  width: 50%;
+  width: 100%;
 }
 .mapping .mappingPic,
 .mapping img {
   width: 750px;
+}
+@media (max-width: 500px) {
+  .mapping .mappingPic,
+  .mapping img {
+    width: 100%;
+  }
 }
 .USSD {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
+@media (max-width: 500px) {
+  .USSD {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .USSD .graph {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .USSD .graph {
+    width: 100%;
+  }
 }
 .USSD .mappingPic,
 .USSD img {
   width: 750px;
+}
+@media (max-width: 500px) {
+  .USSD .mappingPic,
+  .USSD img {
+    width: 100%;
+  }
 }
 footer {
   display: flex;

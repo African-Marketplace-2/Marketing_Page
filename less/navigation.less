@@ -1,9 +1,13 @@
 header{
+   
     h1{
         text-align:center;
     }
     nav{
-        
+        @media @mobile{
+            flex-direction:column;
+            flex-wrap:rap;
+        }
         display:flex;
         justify-content: space-between;
         background-color:black;
