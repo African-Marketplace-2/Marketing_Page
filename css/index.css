@@ -37,6 +37,9 @@ header a:hover {
   background-color: lightseagreen;
   color: black;
 }
+.mainPagecontainer button:active {
+  transform: translateY(4px);
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -192,7 +195,7 @@ footer span {
   color: red;
 }
 .team {
-  border: 3px solid purple;
+  border: 3px solid #fe6c61;
   background-image: url("../images/color powder.jpg");
 }
 .team p {
