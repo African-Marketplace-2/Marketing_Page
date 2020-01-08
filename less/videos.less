@@ -1,4 +1,7 @@
+
+
 .introVid{
+    display:flex;
     @media @mobile{
         text-align:left;
     }
@@ -6,7 +9,10 @@
    width:80%;
 }
 .videos, iframe{
-    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding-bottom:2%;
     @media @mobile{
         width:100%;
         display:flex;

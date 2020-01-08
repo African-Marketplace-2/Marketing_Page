@@ -15,6 +15,7 @@ header nav {
 header a {
   text-decoration: none;
   color: white;
+  padding: 1.5%;
 }
 header a:hover {
   background: #fe6c61;
@@ -29,6 +30,7 @@ header a:hover {
   width: 30%;
   color: #FFFFFF;
   height: 10%;
+  padding: 2%;
   text-align: center;
 }
 body {
@@ -36,11 +38,12 @@ body {
 }
 .firstContainer {
   background-image: url("../images/veggies.jpg");
-  height: 70vh;
+  height: 50vh;
 }
 .firstContainer h2,
 .firstContainer p {
   color: white;
+  padding: 5%;
 }
 @media (max-width: 500px) {
   .firstContainer h2,
@@ -77,6 +80,14 @@ body {
 }
 .do .approach {
   background-color: black;
+  width: 8%;
+  height: 2%;
+  padding: 1%;
+}
+@media (max-width: 500px) {
+  .do .approach {
+    width: 20%;
+  }
 }
 .secondSection {
   display: flex;
@@ -182,6 +193,7 @@ footer span {
   font-weight: bold;
 }
 .introVid {
+  display: flex;
   text-align: center;
   width: 80%;
 }
@@ -189,6 +201,13 @@ footer span {
   .introVid {
     text-align: left;
   }
+}
+.videos,
+iframe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 2%;
 }
 @media (max-width: 500px) {
   .videos,
