@@ -94,6 +94,9 @@ body {
   height: 2%;
   padding: 1%;
 }
+.do .approach a:visited {
+  color: white;
+}
 @media (max-width: 500px) {
   .do .approach {
     width: 20%;
@@ -231,12 +234,28 @@ iframe {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .challengeStatement {
+    flex-direction: column;
+  }
+}
 .challengeStatement h1,
 .challengeStatement p {
   width: 45%;
 }
+@media (max-width: 500px) {
+  .challengeStatement h1,
+  .challengeStatement p {
+    width: 100%;
+  }
+}
 .challengeStatement .saudiVid {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .challengeStatement .saudiVid {
+    width: 100%;
+  }
 }
 .challengeStatement iframe {
   padding-top: 2%;
