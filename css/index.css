@@ -227,3 +227,17 @@ iframe {
     flex-direction: column;
   }
 }
+.challengeStatement {
+  display: flex;
+  justify-content: space-between;
+}
+.challengeStatement h1,
+.challengeStatement p {
+  width: 45%;
+}
+.challengeStatement .saudiVid {
+  width: 50%;
+}
+.challengeStatement iframe {
+  padding-top: 2%;
+}
