@@ -108,6 +108,9 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+.secondSection a:visited {
+  color: white;
+}
 .secondSection h1 {
   text-decoration: underline;
 }
@@ -143,6 +146,9 @@ body {
     justify-content: center;
   }
 }
+.mapping a:visited {
+  color: white;
+}
 .mapping .stakeholder {
   width: 100%;
 }
@@ -160,6 +166,9 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.USSD a:visited {
+  color: white;
 }
 @media (max-width: 500px) {
   .USSD {
