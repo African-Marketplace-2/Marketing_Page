@@ -15,6 +15,11 @@ header nav {
 header a {
   text-decoration: none;
   color: white;
+  padding: 1.5%;
+}
+header a:hover {
+  background: #fe6c61;
+  color: black;
 }
 .mainPagecontainer {
   width: 85%;
@@ -25,18 +30,28 @@ header a {
   width: 30%;
   color: #FFFFFF;
   height: 10%;
+  padding: 2%;
   text-align: center;
+}
+.mainPagecontainer button:hover {
+  background-color: lightseagreen;
+  color: black;
+}
+.mainPagecontainer button:active {
+  transform: translateY(4px);
+  color: white;
 }
 body {
   font-family: 'Open Sans', sans-serif;
 }
 .firstContainer {
   background-image: url("../images/veggies.jpg");
-  height: 70vh;
+  height: 50vh;
 }
 .firstContainer h2,
 .firstContainer p {
   color: white;
+  padding: 5%;
 }
 @media (max-width: 500px) {
   .firstContainer h2,
@@ -58,6 +73,9 @@ body {
     flex-direction: column;
   }
 }
+.firstContainer .intro .buttonParent a:visited {
+  color: white;
+}
 .firstContainer button {
   align-self: center;
 }
@@ -73,11 +91,28 @@ body {
 }
 .do .approach {
   background-color: black;
+  width: 8%;
+  height: 2%;
+  padding: 1%;
+}
+.do .approach a:visited {
+  color: white;
+}
+@media (max-width: 500px) {
+  .do .approach {
+    width: 20%;
+  }
 }
 .secondSection {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.secondSection a:visited {
+  color: white;
+}
+.secondSection h1 {
+  text-decoration: underline;
 }
 @media (max-width: 500px) {
   .secondSection {
@@ -111,6 +146,9 @@ body {
     justify-content: center;
   }
 }
+.mapping a:visited {
+  color: white;
+}
 .mapping .stakeholder {
   width: 100%;
 }
@@ -128,6 +166,9 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.USSD a:visited {
+  color: white;
 }
 @media (max-width: 500px) {
   .USSD {
@@ -165,4 +206,71 @@ footer .copyright {
 }
 footer span {
   color: red;
+}
+.team {
+  display: flex;
+  border: 3px solid purple;
+  background-image: url("../images/color powder.jpg");
+  height: 90vh;
+  align-content: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+.team iframe {
+  border: 1px solid black;
+}
+.introVid {
+  display: flex;
+  text-align: center;
+  width: 80%;
+}
+@media (max-width: 500px) {
+  .introVid {
+    text-align: left;
+  }
+}
+.videos,
+iframe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+@media (max-width: 500px) {
+  .videos,
+  iframe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.challengeStatement {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .challengeStatement {
+    flex-direction: column;
+  }
+}
+.challengeStatement h1,
+.challengeStatement p {
+  width: 45%;
+}
+@media (max-width: 500px) {
+  .challengeStatement h1,
+  .challengeStatement p {
+    width: 100%;
+  }
+}
+.challengeStatement .saudiVid {
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .challengeStatement .saudiVid {
+    width: 100%;
+  }
+}
+.challengeStatement iframe {
+  padding-top: 2%;
 }
