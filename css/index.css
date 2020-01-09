@@ -206,6 +206,9 @@ footer span {
   justify-content: center;
   padding-top: 5%;
 }
+.team iframe {
+  border: 1px solid black;
+}
 .introVid {
   display: flex;
   text-align: center;
