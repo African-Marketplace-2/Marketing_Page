@@ -39,6 +39,7 @@ header a:hover {
 }
 .mainPagecontainer button:active {
   transform: translateY(4px);
+  color: white;
 }
 body {
   font-family: 'Open Sans', sans-serif;
